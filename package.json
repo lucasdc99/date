@@ -12,6 +12,7 @@
   "author": "Lucas De Curtis",
   "license": "ISC",
   "dependencies": {
+    "@lucactus/typescript": "^1.0.3",
     "dayjs": "^1.11.8"
   }
 }
