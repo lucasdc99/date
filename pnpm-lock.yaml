@@ -5,12 +5,14 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@lucactus/prettier':
-    specifier: ^1.0.0
-    version: 1.0.0
   dayjs:
     specifier: ^1.11.8
     version: 1.11.8
+
+devDependencies:
+  '@lucactus/prettier':
+    specifier: ^1.0.0
+    version: 1.0.0
   typescript:
     specifier: ^5.1.3
     version: 5.1.3
@@ -19,7 +21,7 @@ packages:
 
   /@lucactus/prettier@1.0.0:
     resolution: {integrity: sha512-Kx6a/GECHvV52j6DwL8xiIxviH7QmBVc7uZjhPtPCAoUY7zvCiEoCzbEgXHwYzxDyKanphiVP6g8/P1xkirZmA==}
-    dev: false
+    dev: true
 
   /dayjs@1.11.8:
     resolution: {integrity: sha512-LcgxzFoWMEPO7ggRv1Y2N31hUf2R0Vj7fuy/m+Bg1K8rr+KAs1AEy4y9jd5DXe8pbHgX+srkHNS7TH6Q6ZhYeQ==}
@@ -29,4 +31,4 @@ packages:
     resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: false
+    dev: true
