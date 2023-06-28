@@ -131,3 +131,11 @@ export function getYear(date?: Date): number {
 
   return dayjs(date).year();
 }
+
+export function getMonth(date?: Date): number {
+  if (!date || !isDateValid(date)) {
+    return dayjs().month();
+  }
+
+  return dayjs(date).month();
+}
