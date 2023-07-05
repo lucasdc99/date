@@ -139,3 +139,11 @@ export function getMonth(date?: Date): number {
 
   return dayjs(date).month();
 }
+
+export function getDateFromUnix(unix: number): Date {
+  return dayjs.unix(unix).toDate();
+}
+
+export function formatDateFromUnix(unix: number): string {
+  return dayjs.unix(unix).format("DD/MM/YYYY");
+}
