@@ -83,8 +83,8 @@ export function addXDaysToDate(date: Date, days: number): Date {
   return dayjs(date).add(days, "day").toDate();
 }
 
-export function removeXDaysToDate(date: Date, days: number): Date {
-  return dayjs().subtract(days, "day").toDate();
+export function getDaysFromDate(date: Date, targetDate: Date): number {
+  return dayjs(date).diff(targetDate);
 }
 
 export function getEndOfMonthDate(date: Date): Date {
